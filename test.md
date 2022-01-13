@@ -1,11 +1,12 @@
 # Test for cheat sheet markdown text
 
-##Basic Syntax
-*Italic*	_Italic_	Italic
-**Bold**	__Bold__	Bold
+## Basic Syntax
+
+*Italic*	
+**Bold**	
 
 [(https://www.wikipedia.org/)]
-![alt text](https://www.istockphoto.com/photo/laptop-with-blank-screen-isolated-on-white-background-gm1128662796-297884868)	![Image][1]
+![alttext](https://www.istockphoto.com/photo/laptop-with-blank-screen-isolated-on-white-background-gm1128662796-297884868)	![Image][1]
 ⋮
 [1]: http://url/b.jpg	Markdown
 > Blockquote	 	
