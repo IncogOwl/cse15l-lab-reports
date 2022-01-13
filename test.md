@@ -6,9 +6,8 @@
 **Bold**	
 
 [(https://www.wikipedia.org/)]
-![alttext](https://www.istockphoto.com/photo/laptop-with-blank-screen-isolated-on-white-background-gm1128662796-297884868)	![Image][1]
-⋮
-[1]: http://url/b.jpg	Markdown
+![Computer](https://image.shutterstock.com/image-photo/desktop-computer-keyboard-mouse-on-600w-224908105.jpg)	
+
 > Blockquote	 	
 
 
