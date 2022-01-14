@@ -1,6 +1,6 @@
-#Remote Access
+# Remote Access
 
-##What are the steps needed to connect to a remote server optimally?
+## What are the steps needed to connect to a remote server optimally?
 
 **Step 1: Installing VSCode**
 
