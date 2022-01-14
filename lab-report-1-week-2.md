@@ -26,7 +26,7 @@ Once you are ready, open up VSCode and access the terminal.
 
 Now that we are ready to go, here are the pieces of code you will need to write to connect to the server.
 
-1. `$ ssh cs15lwi22zz@ieng6.ucsd.edu` (replace the zz with the three letters you find in your own login details, refer above for more details)
+1. `ssh cs15lwi22zz@ieng6.ucsd.edu` (replace the zz with the three letters you find in your own login details, refer above for more details)
 2. If it's your first time accessing the server, you will get a message. There is no need to worry, just enter yes. 
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -34,4 +34,21 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 
 ```
-3. After you enter yes and your password, this message will pop up. 
+3. After you enter yes and your password, this message will pop up and you would have successfully connected to the remote server.
+
+![Final Message](RemoteConnecting.png)
+
+**Step 3: Trying some Commands
+
+Now that we have connected to the server, let's try out some simple commands. 
+There are hundereds of commands we could try but for now, we are going to use four of them 
+`ls` - Informs you of the files in your directory.
+`ls -lat` - Gives you a detailed description of the files in your directory including dates, types, names etc.
+`cd` - changes directory to your home directory. You wouldn't see anything change and that is because you're already in your home directory.
+`cd ~` - reverts back to the general directory, again no change is seen because you're in your general directory. Is more applicable in later stages of the course.
+
+Here is what this commands should look like when executed.
+
+
+
+Type `exit` to exit the server and return back to your laptop.
