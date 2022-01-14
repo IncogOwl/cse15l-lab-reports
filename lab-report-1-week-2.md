@@ -108,7 +108,7 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 Now you're done. This is how doing the `ssh` command looks like now.
 
-![SSHKeys](...)
+![SSHKeys](SSHKey.png)
 
 **The FINAL STEP**
 
@@ -122,7 +122,7 @@ Ex. `ssh cs15lwi22akr@ieng6.ucsd.edu "ls"`
 
 On the terminal
 
-![Two commands]()
+![Two commands](Combine.png)
 
 2. Use semicolons to write multiple commands on one line just like in any other programming language.
 
