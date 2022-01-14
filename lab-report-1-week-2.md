@@ -42,13 +42,37 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Now that we have connected to the server, let's try out some simple commands. 
 There are hundereds of commands we could try but for now, we are going to use four of them 
-`ls` - Informs you of the files in your directory.
-`ls -lat` - Gives you a detailed description of the files in your directory including dates, types, names etc.
-`cd` - changes directory to your home directory. You wouldn't see anything change and that is because you're already in your home directory.
-`cd ~` - reverts back to the general directory, again no change is seen because you're in your general directory. Is more applicable in later stages of the course.
+1.`ls` - Informs you of the files in your directory.
+2.`ls -lat` - Gives you a detailed description of the files in your directory including dates, types, names etc.
+3.`cd` - changes directory to your home directory. You wouldn't see anything change and that is because you're already in your home directory.
+4.`cd ~` - reverts back to the general directory, again no change is seen because you're in your general directory. Is more applicable in later stages of the course.
 
 Here is what this commands should look like when executed.
 
-
+![Unix Command](TerminalUnix.png)
 
 Type `exit` to exit the server and return back to your laptop.
+
+**Step 4: Moving files with `scp`
+
+Now that we can connect to a remote server, let's run some programs on it.
+
+In order to do that we need to transfer the files we are working locally to the server and then run the code. We do this using the `scp` command.
+
+1. Create a program called `WhereAmI.java` and put this code in it.
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+2. Run the `javac` and `java` commands to get a sense of what the output is on your computer.
+3. Run this command `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/` (obviously using your login details)
+4. Enter your password and your file should be transferred then. After that, use the `ssh` command and access the server.
+5. Enter the `ls` command and you should see your file `WhereAmI.java` present. Run the `javac` and `java` commands and see the difference in output.
+6. This is what the terminal should look like.
