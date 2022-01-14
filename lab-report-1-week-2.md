@@ -14,7 +14,7 @@ When done, it should look like this. Mine is on Mac OS and hence might look diff
 
 **Step 2: Remotely Connecting**
 
-Now that we have an IDE to work, let's do the thing we came here to do: Remote Connecting to a server. This act is done everywhere from different CSE classes which  to even your future job, thus this is an important skill to learn.
+Now that we have an IDE to work, let's do the thing we came here to do: Remote Connecting to a server. This act is done everywhere from different CSE classes to even your future job, thus this is an important skill to learn.
 
 If you're on Windows, bad luck, you need to install OpenSSH which allows you to remote connect to other computers and servers. 
 Click to go to the site [OpenSSH Instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
@@ -93,6 +93,7 @@ Here's what you should run to set it up.
 ```
 $ ssh-keygen
 ```
+
 Any option comes up, just press enter and let the computer do the work for you.
 
 For your information: There will be two files on your system for both keys; the private key is in a file called id_rsa and the public key is in a file called id_rsa.pub in the .ssh directory on your computer.
@@ -100,12 +101,14 @@ For your information: There will be two files on your system for both keys; the 
 If you're on Windows, you have some extra steps to follow @ [Extra Steps for Windows Users](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
 After this, you will need to enter the server and enter this
+
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
 <Enter password>
 $ mkdir .ssh
 ```
 Exit the server and then type this. Change it to match your username and password.
+
 ```
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
