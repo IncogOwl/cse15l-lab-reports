@@ -16,6 +16,8 @@ Here is the link to the test file that caused the bug: [Fail-input File No.1](ne
 
 Here is the change in the code to correct the bug along with the symptom.
 
-![Correction made as displayed in Commint history](
+![Correction made as displayed in Commint history](Error1.png)
+
+
 
 
