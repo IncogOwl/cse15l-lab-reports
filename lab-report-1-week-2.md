@@ -136,6 +136,6 @@ On the terminal
 Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 3. Use the up arrow key to use the last command executed to speeden your testing processes.
-4. Use this one line to transfer and run your program on the server in one line ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
+4. Use this one line as an example or a template for further use to transfer and run your program on the server in one line ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
 
 ## **That is it. This is all you need to know to be able to connect to a remote server optimally. Use it wisely.**
