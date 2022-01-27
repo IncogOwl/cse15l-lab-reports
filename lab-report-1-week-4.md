@@ -3,7 +3,7 @@
 ## How to identify bugs and symptoms using specifc inputs
 
 ** Today we will be using three examples wherein a failure inducing output was given. We will be identifying the bugs and symptoms that were present in the code and the relationship between them.**
-** We will be using the ```MarkdownParse.java``` present in the repository as our base file for displaying these examples.
+** We will be using the ```MarkdownParse.java``` present in the repository as our base file for displaying these examples.**
 
 ## **Code Example No. 1**
 
