@@ -8,7 +8,7 @@ We will be using the ```MarkdownParse.java``` present in the repository as our b
 ## **Code Example No.1**
 
 In our first example, we assumed that the input would be correct and would be links only. 
-This failure inducing input has a picture link as well. Our current code's output would have included it in the list of links as well since it only checks if the parenthesis and brackets are present and adds the element in between the parenthesis.
+This failure inducing input has a picture as well. Our current code's output would have included it in the list of links as well since it only checks if the parenthesis and brackets are present and adds the element in between the parenthesis.
 The symptom here is the picture name being included as a link in the final output, the bug is the add statement that takes in any element that has brackets and is in between the parenthesis. This is fixed by adding an extra if statement that checks if there isn't an exclamation point and if the next open bracket is not at zeroeth index.
 If this is true then it adds the link to the list.
 
