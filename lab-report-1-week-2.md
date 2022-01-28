@@ -127,6 +127,8 @@ Here are some tips and tricks you can use to optimize your remote running.
 
 Ex. ```ssh cs15lwi22akr@ieng6.ucsd.edu "ls"```
 
+With this you will save a keystroke as well as waiting for the system to boot up first and then typing the command.
+
 On the terminal
 
 ![Two commands](Combine.png)
@@ -135,9 +137,16 @@ On the terminal
 
 Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
+With this you will save two keystrokes as well as waiting for the system to boot up first and then typing the command.
+
 3. Use the up arrow key to use the last command executed to speeden your testing processes.
-4. Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
+
+With this, you save countless of keystrokes and time as you no longer have to type any previous command or any command you have already executed as you could find it using the upward arrow key to find it and then execute it.
+
+5. Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
 
 ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
+
+With this command you save four keystrokes as well as having a very succint and satisfying execution of your code. It would copy the code, access the server as well compile and run the code all in a single line. You also would not have to wait for the laptop to access the server or to copy the code to the server and then type the command to execute. Overall it makes everthing easier and clean. 
 
 ## **That is it. This is all you need to know to be able to connect to a remote server optimally. Use it wisely.**
