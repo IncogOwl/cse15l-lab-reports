@@ -147,6 +147,6 @@ Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
 
-**With this command you save four keystrokes as well as having a very succint and satisfying execution of your code. It would copy the code, access the server as well compile and run the code all in a single line. You also would not have to wait for the laptop to access the server or to copy the code to the server and then type the command to execute. Overall it makes everthing easier and clean.**
+**With this command you save four keystrokes as well as having a very succint and satisfying execution of your code. It would copy the code, access the server as well compile and run the code all in a single line. You no longer have to wait for the laptop to access the server or to copy the code to the server and then type the commands to execute. It just makes everthing easier.**
 
 ## **That is it. This is all you need to know to be able to connect to a remote server optimally. Use it wisely.**
