@@ -14,10 +14,6 @@ If this is true then it adds the link to the list.
 
 Here is the link to the test file that caused the symptom: [Fail-input File No.1](new-file.md)
 
-Here is the symptom as shown in the terminal. 
-
-![Terminal error](TerminalError1.png)
-
 Here is the change in the code to correct the symptom as shown in the commit history
 
 ![Correction made as displayed in Commint history](Error1.png)
@@ -30,10 +26,6 @@ The current code would have included it in the list as well since it's not a pic
 
 Here is the link to the test file that caused the symptom: [Fail-input File No.2](empty-file.md)
 
-Here is the symptom as shown in the terminal. 
-
-![Terminal error](TerminalError2.png)
-
 Here is the change in the code to correct the symptom as shown in the commit history.
 
 ![Correction made as displayed in Commint history](Error2.png)
@@ -43,10 +35,6 @@ Here is the change in the code to correct the symptom as shown in the commit his
 In the final exampke, we assumed that the input would have both the parenthesis and brackets. This failure inducing input has the correct link format and it's not a picture. What is missing is that it does not have any parenthesis. When executed, the program results in an error as the openParen and closeParen are -1 and thus not valid index thus a StringIndexOutOfBoundsException is called. The symptom here is the Exception that is called. The bug is the if statements with the add statement because it did not include the condition of whether the input was typed wrong with brackets instead of parenthesis. This is fixed by having an if conditon that checks if openParen and closeParen are equal to -1, meaning that the link was not in the typical format, and a break statement when closeParen is equal to -1 to end the program. A better solution still needs to be written but this is what we have created as a solution so far.
 
 Here is the link to the test file that caused the symptom: [Fail-input File No.3](bracket-file.md)
-
-Here is the symptom as shown in the terminal. 
-
-![Terminal error](TerminalError3.png)
 
 Here is the change in the code to correct the symptom as shown in the commit history. 
 
