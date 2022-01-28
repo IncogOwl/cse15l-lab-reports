@@ -22,7 +22,7 @@ Here is the change in the code to correct the symptom as shown in the commit his
 
 In the second example, we assumed that even if the input was in the link format, it would be an actual link and not random text.
 This failure inducing input has the necessary brackets and parenthesis but with an invalid link as we have put "this is a random text" instead of an actual link.
-The current code would have included it in the list as well since it's not a picture or doesn't have an exclamation point or the next open bracket is not at zeroeth index as well as being written in the correct format. The symptom here is the phrase "this is a random text" is included in the list in the final output. The bug is the add statement that takes in any element that is not a picture and written in the right format. It doesn't check if the link is actually a link. We fix this bug by checking if there is any spaces in the link. If there is not, it passes and is added to the list otherwise it fails and is not added.
+The current code would have included it in the list as well since it's not a picture nor does it have an exclamation point or the next open bracket is not at zeroeth index as well as being written in the correct format. The symptom here is the phrase "this is a random text" is included in the list in the final output. The bug is the add statement that takes in any element that is not a picture and written in the right format. It doesn't check if the link is actually a link. We fix this bug by checking if there is any spaces in the link. If there is not, it passes and is added to the list otherwise it fails and is not added.
 
 Here is the link to the test file that caused the symptom: [Fail-input File No.2](empty-file.md)
 
