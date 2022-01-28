@@ -16,7 +16,7 @@ Here is the link to the test file that caused the symptom: [Fail-input File No.1
 
 Here is the change in the code to correct the symptom as shown in the commit history
 
-![Correction made as displayed in Commint history](Error1.png)
+![Correction made as displayed in Commint history](Picture1.png)
 
 ## **Code Example No.2**
 
@@ -28,7 +28,7 @@ Here is the link to the test file that caused the symptom: [Fail-input File No.2
 
 Here is the change in the code to correct the symptom as shown in the commit history.
 
-![Correction made as displayed in Commint history](Error2.png)
+![Correction made as displayed in Commint history](Picture2.png)
 
 ## **Code Example No.3**
 
@@ -38,7 +38,7 @@ Here is the link to the test file that caused the symptom: [Fail-input File No.3
 
 Here is the change in the code to correct the symptom as shown in the commit history. 
 
-![Correction made as displayed in Commint history](Error3.png)
+![Correction made as displayed in Commint history](Picture3.png)
 
 
 
