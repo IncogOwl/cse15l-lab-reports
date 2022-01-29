@@ -143,7 +143,7 @@ Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 **With this, you save countless of keystrokes and time as you no longer have to type any previous command or any command you have already executed as you could find it using the upward arrow key to find it and then execute it. If you needed to run the previous command again, all you would have to do is dp one upward arrow keystroke and press enter to run the code instead of typing it all over again. **
 
-5. Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
+4. Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
 
 ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
 
