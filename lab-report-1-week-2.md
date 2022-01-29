@@ -123,7 +123,7 @@ Now you're done. This is how doing the ```ssh``` command looks like now.
 
 Here are some tips and tricks you can use to optimize your remote running.
 
-1. Add quotes at the end of your ```ssh``` statement in order to write a statement that will run on the server.
+- Add quotes at the end of your ```ssh``` statement in order to write a statement that will run on the server.
 
 Ex. ```ssh cs15lwi22akr@ieng6.ucsd.edu "ls"```
 
@@ -133,17 +133,17 @@ On the terminal
 
 ![Two commands](Combine.png)
 
-2. Use semicolons to write multiple commands on one line just like in any other programming language.
+- Use semicolons to write multiple commands on one line just like in any other programming language.
 
 Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 **With this you will save two enter keystrokes as well as waiting for the system to boot up first and then typing the command.**
 
-3. Use the up arrow key to use the last command executed to speeden your testing processes.
+- Use the up arrow key to use the last command executed to speeden your testing processes.
 
 **With this, you save countless of keystrokes and time as you no longer have to type any previous command or any command you have already executed as you could find it using the upward arrow key to find it and then execute it. If you needed to run the previous command again, all you would have to do is one upward arrow keystroke and press enter to run the code instead of typing it all over again.**
 
-4. Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
+- Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
 
 ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
 
