@@ -141,7 +141,7 @@ Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 3. Use the up arrow key to use the last command executed to speeden your testing processes.
 
-**With this, you save countless of keystrokes and time as you no longer have to type any previous command or any command you have already executed as you could find it using the upward arrow key to find it and then execute it. If you needed to run the previous command again, all you would have to do is dp one upward arrow keystroke and press enter to run the code instead of typing it all over again. **
+**With this, you save countless of keystrokes and time as you no longer have to type any previous command or any command you have already executed as you could find it using the upward arrow key to find it and then execute it. If you needed to run the previous command again, all you would have to do is dp one upward arrow keystroke and press enter to run the code instead of typing it all over again.**
 
 4. Use this one line as an example or a template for further use to transfer and run your program on the server in one line 
 
