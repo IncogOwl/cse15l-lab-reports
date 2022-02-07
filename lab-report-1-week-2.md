@@ -127,7 +127,7 @@ Here are some tips and tricks you can use to optimize your remote running.
 
 Ex. ```ssh cs15lwi22akr@ieng6.ucsd.edu "ls"```
 
-**With this you will save an enter keystroke as well as waiting for the system to boot up first and then typing the command.**
+**With this you will save an enter keystroke as well as waiting for the system to boot up first and then typing the command. Thus, for the above command, you would do 36 keystrokes**
 
 On the terminal
 
@@ -137,7 +137,7 @@ On the terminal
 
 Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
-**With this you will save two enter keystrokes as well as waiting for the system to boot up first and then typing the command.**
+**With this you will save two enter keystrokes as well as waiting for the system to boot up first and then typing the command. Thus, for the above command, you would do 69 keystrokes**
 
 - Use the up arrow key to use the last command executed to speeden your testing processes.
 
@@ -147,6 +147,8 @@ Ex. ```scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 ```scp varunparekh@Varuns-Air-2 CSE15L % /WhereAmI.java cs15lwi22akr@ieng6.ucsd.edu:~/; ssh cs15lwi22akr@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
 
-**With this command you save four enter keystrokes as well as having a very succint and satisfying execution of your code. It would copy the code, access the server as well compile and run the code all in a single line. You no longer have to wait for the laptop to access the server or to copy the code to the server and then type the commands to execute. It just makes everthing easier.**
+**With this command you save four enter keystrokes. It would copy the code, access the server as well compile and run the code all in a single line. You no longer have to wait for the laptop to access the server or to copy the code to the server and then type the commands to execute. It just makes everthing easier. Thus, for the above command, you would do 151 keystrokes**
+
+**Thus if we were to copy a program to the server, compile and execute the program, it would only take 151 keystrokes and would take less time than writing an individual command and then executing it and then typing the next. It would be a very succint and satisfying execution of your code.**
 
 ## **That is it. This is all you need to know to be able to connect to a remote server optimally. Use it wisely.**
