@@ -42,7 +42,7 @@ Here is the change in the code to correct the symptom as shown in the commit his
 
 In the final example, we assumed that the input would have both the parenthesis and brackets. This failure inducing input has the correct link format and it's not a picture. What is missing is that it does not have any parenthesis. When executed, the program results in an error as the openParen and closeParen are -1 and thus not valid index thus a StringIndexOutOfBoundsException is called. The symptom here is the Exception that is called. The bug is the if statements with the add statement because it did not include the condition of whether the input was typed wrong with brackets instead of parenthesis. This is fixed by having an if conditon that checks if openParen and closeParen are equal to -1, meaning that the link was not in the typical format, and a break statement when closeParen is equal to -1 to end the program. A better solution still needs to be written but this is what we have created as a solution so far.
 
-Here is the link to the test file that caused the symptom: [Fail-input File No.3](bracket-file.md) or on GitHub [Fail-input File No.2](https://github.com/IncogOwl/cse15l-lab-reports/blob/main/bracket-file.md)
+Here is the link to the test file that caused the symptom: [Fail-input File No.3](bracket-file.md) or on GitHub [Fail-input File No.3](https://github.com/IncogOwl/cse15l-lab-reports/blob/main/bracket-file.md)
 
 Here is the error at the terminal when the input is tested with the code
 
