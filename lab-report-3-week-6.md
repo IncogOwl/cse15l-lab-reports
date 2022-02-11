@@ -10,7 +10,7 @@ and sub directories and figuring out how to enter those files to then use ```scp
 To solve this problem, we can recursively go through our personal directory to copy and transfer files from our directory to the remote server. For example, let's
 say that we want to copy the markdown-parse directory into the remote server.
 
-We type in this command ```scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse```
+We type in this command ```scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse``` ( Obviously adjusting the line with the correct login details)
 
 ```-r``` means using recursion
 ```.``` means the current personal directory
