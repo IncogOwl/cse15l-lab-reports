@@ -1,4 +1,4 @@
-# How to copy whole directories into the server using ``` scp ```
+# How to copy whole directories into the server using ``` scp -r ```
 
 
 As of right now, we have been using ```scp``` to copy one file at a time from our private directory into the remote server. 
