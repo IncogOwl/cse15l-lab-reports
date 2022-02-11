@@ -20,6 +20,8 @@ The rest allows for the computer to access the remote server and then copy the `
 
 This is what the terminal should look like after doing the command.
 
+This is just a small snippet of the terminal after this command is typed.
+
 ![Copy whole directory into ieng6](CopyWhole.png)
 
 Now that we have copied the entire repository into the server, let's run ```MarkdownParseTest.java``` to see if all the tests work and to prove that the directory 
