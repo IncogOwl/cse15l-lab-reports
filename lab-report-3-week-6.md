@@ -5,8 +5,6 @@ As of right now, we have been using ```scp``` to copy one file at a time from ou
 In the future, as we work on larger projects, it will become a tedious proccess to keep copying single files one at a time. We will also be working in directories
 and sub directories and figuring out how to enter those files to then use ```scp``` to copy them will become tiring, fustrating and can lead to many mistakes. 
 
-**For this report, we will be using the markdown-parse directory to display the workings of the code.**
-
 To solve this problem, we can recursively go through our personal directory to copy and transfer files from our directory to the remote server. For example, let's
 say that we want to copy the markdown-parse directory into the remote server.
 
