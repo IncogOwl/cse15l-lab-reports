@@ -30,9 +30,9 @@ has been copied and is working exactly as we want it to.
 ![Running tests on ieng6](Tests.png)
 
 Now that the tests run exactly as we wanted it to, lets combine the last two lines of code and write one line that is able to copy the whole  ```markdown-parse``` 
-directory into the remote server and run the tests within it.
+directory into the remote server and run the tests within it. I did make a small change in the ```scp``` statement to allow for only ```.java``` and ```.md``` to be copied into the remote server to save some time.
 
-The line is ``` code ```
+The line is ``` scp -r *.java *.md lib/ cs15lwi22akr@ieng6.ucsd.edu:markdown-parse ; ssh cs15lwi22akr@ieng6.ucsd.edu " cd markdown-parse ;  /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java ; /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest " ```
 
 Using this, the terminal should look like:
 
