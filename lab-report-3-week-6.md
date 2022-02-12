@@ -36,6 +36,6 @@ directory into the remote server and run the tests within it. I made a small cha
 
 ``` scp -r *.java *.md lib/ cs15lwi22akr@ieng6.ucsd.edu:markdown-parse ; ssh cs15lwi22akr@ieng6.ucsd.edu " cd markdown-parse ;  /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java ; /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest " ```
 
-Using this, the terminal should look like:
+Using it, the terminal should look like this:
 
 ![Combine both lines and running it](Final.png)
