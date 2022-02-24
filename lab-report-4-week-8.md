@@ -30,11 +30,11 @@ I ran the tests on both versions of MarkdownParse and these were my outputs
 
 My output:
 
-![Snippet1 Me](Snippet2Me.png)
+![Snippet1 Me](Snippet1Me.png)
 
 Their output: 
 
-![Snippet1 Them](Snippet2Them.png)
+![Snippet1 Them](Snippet1Them.png)
 
 If fail, what to do:...........
 
@@ -62,11 +62,11 @@ I ran the tests on both versions of MarkdownParse and these were my outputs
 
 My output:
 
-![Snippet2 Me](Snippet1Me.png)
+![Snippet2 Me](Snippet2Me.png)
 
 Their output: 
 
-![Snippet2 Them](Snippet1Them.png)
+![Snippet2 Them](Snippet2Them.png)
 
 If fail, what to do:...........
 
