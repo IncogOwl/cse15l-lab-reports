@@ -36,7 +36,7 @@ Their output:
 
 ![Snippet1 Them](Snippet1Them.png)
 
-If fail, what to do:...........
+**What can I do to fix my code?**
 
 
 
@@ -68,7 +68,7 @@ Their output:
 
 ![Snippet2 Them](Snippet2Them.png)
 
-If fail, what to do:...........
+**What can I do to fix my code?**
 
 
 
@@ -119,4 +119,4 @@ Their output:
 
 ![Snippet3 Them](Snippet3Them.png)
 
-If fail, what to do:...........
+**What can I do to fix my code?**
