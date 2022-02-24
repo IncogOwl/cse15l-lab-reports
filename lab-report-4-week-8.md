@@ -36,7 +36,13 @@ Their output:
 
 ![Snippet1 Them](Snippet1Them.png)
 
+
+
 **What can I do to fix my code?**
+
+This problem can be solved in less than 10 lines of code. We can fix it by including a condition that checks if there is a backtick in the parenthesis or brackets of the link or right after or before the parenthesis or brackets or if there are backticks present before the next brackets. It does not take amything present there as a link since it is within a code block.
+
+
 
 
 
