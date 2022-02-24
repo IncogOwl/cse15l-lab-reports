@@ -40,7 +40,7 @@ Their output:
 
 **What can I do to fix my code?**
 
-This problem can be solved in less than 10 lines of code. We can fix it by including a condition that checks if there is a backtick in the parenthesis or brackets of the link or right after or before the parenthesis or brackets or if there are backticks present before the next brackets. It does not take amything present there as a link since it is within a code block.
+This problem can be solved in less than 10 lines of code. We can fix it by including an if condition that checks if there is a backtick in the parenthesis or brackets of the link or right after or before the link or if there are backticks present before the next brackets. It does not take amything present there as a link since it is within a code block and is not an indicidual link.
 
 
 
@@ -75,6 +75,8 @@ Their output:
 ![Snippet2 Them](Snippet2Them.png)
 
 **What can I do to fix my code?**
+
+We can fix this problem in less than 10 lines of code. We must put an if condition to check if there are any brackets wihin the first brackets and if found, to continue the loop or to avoid it completely till it finds a close bracket. We can use the indexOf() function to find any type of brackets within the link and adjust accordinly. We must also put another if condition that checks if there is a parenthesis or bracket in the actual link (line within parenthesis) and if it's true, it must discard the link and not include it at all.
 
 
 
@@ -126,3 +128,5 @@ Their output:
 ![Snippet3 Them](Snippet3Them.png)
 
 **What can I do to fix my code?**
+
+We can solve this problem
