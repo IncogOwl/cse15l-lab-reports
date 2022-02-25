@@ -28,11 +28,11 @@ These are the changes I made to MarkdownParseTest.java so that we can test Snipp
 
 I ran the tests on both versions of MarkdownParse and these were my outputs
 
-My output:
+**My output**:
 
 ![Snippet1 Me](Snippet1Me.png)
 
-Their output: 
+**Their output:** 
 
 ![Snippet1 Them](Snippet1Them.png)
 
@@ -66,11 +66,11 @@ These are the changes I made to MarkdownParseTest.java so that we can test Snipp
 
 I ran the tests on both versions of MarkdownParse and these were my outputs
 
-My output:
+**My output:**
 
 ![Snippet2 Me](Snippet2Me.png)
 
-Their output: 
+**Their output:** 
 
 ![Snippet2 Them](Snippet2Them.png)
 
@@ -119,14 +119,14 @@ These are the changes I made to MarkdownParseTest.java so that we can test Snipp
 
 I ran the tests on both versions of MarkdownParse and these were my outputs
 
-My output:
+**My output:**
 
 ![Snippet3 Me](Snippet3MeFinal.png)
 
-Their output: 
+**Their output:** 
 
 ![Snippet3 Them](Snippet3ThemFinal.png)
 
 **What can I do to fix my code?**
 
-We can solve this problem in less than 10 lines of code. We will need an if condition that checks if there is any ```\n``` present in the string using indexOf(). If there is, then we can disregard the link completely since it is not in the correct markdown language format otherwise it will be included since markdown still considers it as one line.
+We can solve this problem in less than 10 lines of code. We will need an if condition that checks if there is any ```"\n"``` present in the string using indexOf(). If there is, then we can disregard the link completely since it is not in the correct markdown language format otherwise it will be included since markdown still considers it as one line.
