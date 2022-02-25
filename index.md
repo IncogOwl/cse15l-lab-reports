@@ -5,3 +5,5 @@
 [Lab Report 2- Week 4](https://incogowl.github.io/cse15l-lab-reports/lab-report-1-week-4.html)
 
 [Lab Report 3- Week 6](https://incogowl.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
+[Lab Report 4- Week 8](https://incogowl.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
