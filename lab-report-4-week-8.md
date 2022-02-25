@@ -121,7 +121,7 @@ I ran the tests on both versions of MarkdownParse and these were my outputs
 
 My output:
 
-![Snippet3 Me](Snippet3Me.png)
+![Snippet3 Me](Snippet3MeFinal.png)
 
 Their output: 
 
