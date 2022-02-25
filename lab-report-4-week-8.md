@@ -115,7 +115,7 @@ As a website, this should produce
 
 These are the changes I made to MarkdownParseTest.java so that we can test Snippet 3.
 
-![Change3](Change3.png)
+![Change3](Change3Final.png)
 
 I ran the tests on both versions of MarkdownParse and these were my outputs
 
@@ -125,7 +125,7 @@ My output:
 
 Their output: 
 
-![Snippet3 Them](Snippet3Them.png)
+![Snippet3 Them](Snippet3ThemFinal.png)
 
 **What can I do to fix my code?**
 
