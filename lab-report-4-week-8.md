@@ -6,7 +6,7 @@
 
 [Comparator Repository](https://github.com/yi113/markdown-parse.git)
 
-### Snippet 1
+## Snippet 1
 
 ```
 `[a link`](url.com)
@@ -46,7 +46,7 @@ This problem can be solved in less than 10 lines of code. We can fix it by inclu
 
 
 
-### Snippet 2
+## Snippet 2
 
 ```
 [a [nested link](a.com)](b.com)
@@ -80,7 +80,7 @@ We can fix this problem in less than 10 lines of code. We must put an if conditi
 
 
 
-### Snippet 3
+## Snippet 3
 
 ```
 [this title text is really long and takes up more than 
