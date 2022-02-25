@@ -129,4 +129,4 @@ Their output:
 
 **What can I do to fix my code?**
 
-We can solve this problem
+We can solve this problem in less than 10 lines of code. We will need an if condition that checks if there is any ```\n``` present in the string using indexOf(). If there is, then we can disregard the link completely since it is not in the correct markdown language format otherwise it will be included since markdown still considers it as one line.
