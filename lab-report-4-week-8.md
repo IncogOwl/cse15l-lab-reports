@@ -40,7 +40,7 @@ I ran the tests on both versions of MarkdownParse and these were my outputs
 
 **What can I do to fix my code?**
 
-This problem can be solved in less than 10 lines of code. We can fix it by including an if condition that checks if there is a backtick in the parenthesis or brackets of the link or right after or before the link or if there are backticks present before the next brackets. It does not take amything present there as a link since it is within a code block and is not an indicidual link.
+This problem can be solved in less than 10 lines of code. We can fix it by including an if condition that checks if there is a backtick in the parenthesis or brackets of the link or right after or before the link or if there are backticks present before the next brackets. If true, it does not take anything present there as a link since it is within a code block and is not an individual link.
 
 
 
@@ -76,7 +76,7 @@ I ran the tests on both versions of MarkdownParse and these were my outputs
 
 **What can I do to fix my code?**
 
-We can fix this problem in less than 10 lines of code. We must put an if condition to check if there are any brackets wihin the first brackets and if found, to continue the loop or to avoid it completely till it finds a close bracket. We can use the indexOf() function to find any type of brackets within the link and adjust accordinly. We must also put another if condition that checks if there is a parenthesis or bracket in the actual link (line within parenthesis) and if it's true, it must discard the link and not include it at all.
+We can fix this problem in less than 10 lines of code. We must put an if condition to check if there are any brackets wihin the first brackets and if found, to continue the loop or to avoid it completely till it finds a close bracket. We can use the indexOf() function to find any type of brackets within the link and adjust accordingly. We must also put another if condition that checks if there is a parenthesis or bracket in the actual link (line within parenthesis) and if it's true, it must discard the link and not include it at all.
 
 
 
@@ -129,4 +129,4 @@ I ran the tests on both versions of MarkdownParse and these were my outputs
 
 **What can I do to fix my code?**
 
-We can solve this problem in less than 10 lines of code. We will need an if condition that checks if there is any ```"\n"``` present in the string using indexOf(). If there is, then we can disregard the link completely since it is not in the correct markdown language format otherwise it will be included since markdown still considers it as one line.
+We can solve this problem in less than 10 lines of code. We will need an if condition that checks if there is any ```"\n\n"``` present in the ```contents``` string of the ```getLinks()``` function using indexOf(). If there is, then we can disregard the link completely since it is not in the correct markdown language format otherwise it will be included since markdown still considers it as one line.
