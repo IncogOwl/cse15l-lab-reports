@@ -4,7 +4,7 @@
 
 [My Repository](https://github.com/IncogOwl/markdown-parse.git)
 
-[Comparator Repository](https://github.com/yi113/markdown-parse.git)
+[Reviewed Repository](https://github.com/yi113/markdown-parse.git)
 
 ## Snippet 1
 
