@@ -26,7 +26,7 @@ I then went to the home directory and entered the command ```diff markdown-parse
 I then used the ```awk``` command to look through the lines and identify the tests that caused the differences and to see what were the bugs in each of them.
 Using this, I identified two tests that were causing errors. 
 
-They were files 194.md and 484.md.
+They were files **194.md** and **484.md**.
 
 We will now be looking at both tests and seeing which implementation was correct and how can we fix the incorrect one.
 
