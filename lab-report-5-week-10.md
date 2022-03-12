@@ -21,7 +21,7 @@ and store the output it in a file called ```results.txt```.
 ![Their result](TheirResults.png)
 
 
-I then entered the command ```diff markdown-parse/results.txt week9-markdown-parse/results.txt ``` to find the differences. 
+I then went to the home directory and entered the command ```diff markdown-parse/results.txt week9-markdown-parse/results.txt ``` to find the differences. 
 
 I then used the ```awk``` command to look through the lines and identify the tests that caused the differences and to see what were the bugs in each of them.
 Using this, I identified two tests that were causing errors. 
