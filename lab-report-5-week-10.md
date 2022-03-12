@@ -4,7 +4,7 @@
 
 **I was able to find two tests that led to different outputs in the two repositories, but how did I find it?**
 
-I first cloned the updated markdown-parse repository for the website to my ```ieng6``` account and stored it in the directory called ```week9-markdown-parse```
+I first cloned the updated markdown-parse repository from the website to my ```ieng6``` account using ```git clone https://github.com/ucsd-cse15l-w22/markdown-parse.git week9-markdown-parse``` and stored it in the directory called ```week9-markdown-parse```
 because my repository is called ```markdownparse``` and I did not want to have any confusion between the two. 
 
 I entered the following commands to copy the ```script.sh``` and ```test-files``` folder to my own markdown-parse directory.
