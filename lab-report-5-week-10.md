@@ -56,7 +56,7 @@ link as done in my implementation. These were the two problems in the ```Markdow
 
 The text in the file looks like this
 
-![484.md](484.png)
+![489.md](489.png)
 
 As per ```diff```, these were the differences 
 
@@ -68,6 +68,8 @@ The staff's implementation was correct as the ```MarkdownParse``` file should ha
 
 To fix my implementation, I must add a condition that checks if there are any spaces or new lines in the link and if that is the case, 
 to avoid it and move on to the next link.
+
+![fail2](fail2.png)
 
 
 **That is all for both the tests, with the corrections I have mentionned above, it should be enough to fix the errors and have it running well.**
